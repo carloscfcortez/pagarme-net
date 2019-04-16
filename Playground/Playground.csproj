@@ -44,9 +44,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PagarMe\PagarMe.csproj">
-      <Project>{8D32C388-E31F-497B-BCF9-9D088CEB65AD}</Project>
-      <Name>PagarMe</Name>
+    <ProjectReference Include="..\PagarMeCore\PagarMeCore.csproj">
+      <Project>{81f79daa-80b7-4119-868d-06bbdf1c29b2}</Project>
+      <Name>PagarMeCore</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

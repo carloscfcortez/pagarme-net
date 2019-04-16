@@ -31,6 +31,7 @@ using System.Threading;
 using System.Reflection;
 using System.Net;
 using System.Linq;
+using System.Threading.Tasks;
 
 #if HAS_ASYNC
 using System.Threading.Tasks;
