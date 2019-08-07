@@ -7,6 +7,11 @@
     <Authors>Eduardo Pires</Authors>
     <Company>PagarMe</Company>
     <Product>PagarMe - .NET Core</Product>
+    <PackageLicenseUrl>http://www.opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>Pagar.me &amp; Eduardo Pires</Copyright>
+    <PackageProjectUrl>https://github.com/EduardoPires/pagarme-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EduardoPires/pagarme-net</RepositoryUrl>
+    <Description>Pagar.me .NET Core library</Description>
   </PropertyGroup>
 
   <Import Project="..\PagarMe.Shared\PagarMe.Shared.projitems" Label="Shared" />
@@ -14,6 +19,12 @@
   <ItemGroup>
     <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" />
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PagarMeCore.nuspec">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
